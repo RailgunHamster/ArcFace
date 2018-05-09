@@ -13,8 +13,8 @@
 #import <Photos/Photos.h>
 #import <arcsoft_fsdk_face_detection/arcsoft_fsdk_face_detection.h>
 
-#define AFR_DEMO_APP_ID         ""
-#define AFR_DEMO_SDK_FD_KEY     ""
+#define AFR_DEMO_APP_ID         "Cqtamk6vw6tDiHUSeVcDuYHc5xuzpT5LqEuraTAjgZse"
+#define AFR_DEMO_SDK_FR_KEY     "9qJpzfLUEG9DpmK8KS46t2QpLEk8SyPxpp7R7kQTejRx"
 
 #define AFR_FD_MEM_SIZE         1024*1024*50
 #define AFR_FD_MAX_FACE_NUM     4
