@@ -17,12 +17,12 @@
 #import <arcsoft_fsdk_age_estimation/arcsoft_fsdk_age_estimation.h>
 #import <arcsoft_fsdk_gender_estimation/arcsoft_fsdk_gender_estimation.h>
 
-#define AFR_DEMO_APP_ID         ""
-#define AFR_DEMO_SDK_FR_KEY     ""
-#define AFR_DEMO_SDK_FT_KEY     ""
-#define AFR_DEMO_SDK_FD_KEY     ""
-#define AFR_DEMO_SDK_AGE_KEY    ""
-#define AFR_DEMO_SDK_GENDER_KEY ""
+#define AFR_DEMO_APP_ID         "Cqtamk6vw6tDiHUSeVcDuYHc5xuzpT5LqEuraTAjgZse"
+#define AFR_DEMO_SDK_FR_KEY     "9qJpzfLUEG9DpmK8KS46t2QpLEk8SyPxpp7R7kQTejRx"
+#define AFR_DEMO_SDK_FT_KEY     "9qJpzfLUEG9DpmK8KS46t2QCXESJkhJJbjDAuXiViTws"
+#define AFR_DEMO_SDK_FD_KEY     "9qJpzfLUEG9DpmK8KS46t2QKgdhUerCH1wxUuEkaAqDV"
+#define AFR_DEMO_SDK_AGE_KEY    "9qJpzfLUEG9DpmK8KS46t2R4f3GTvSF8hHKznCQwh2v3"
+#define AFR_DEMO_SDK_GENDER_KEY "9qJpzfLUEG9DpmK8KS46t2RBpSXhLHxMLsfUEyEK8jZA"
 
 #define AFR_FR_MEM_SIZE         1024*1024*40
 #define AFR_FT_MEM_SIZE         1024*1024*5

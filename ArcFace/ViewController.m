@@ -128,7 +128,6 @@
     NSArray *arrayFaceInfo = [self.videoProcessor process:pOffscreenIn];
     
     dispatch_sync(dispatch_get_main_queue(), ^{
-        
         [self.glView renderWithCVPixelBuffer:cameraFrame orientation:0 mirror:NO];
         
         if(self.arrayAllFaceRectView.count >= arrayFaceInfo.count)
