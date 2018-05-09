@@ -8,22 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		00AC8AC020A1F126003C4E59 /* arcsoft_fsdk_gender_estimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC8ABA20A1F125003C4E59 /* arcsoft_fsdk_gender_estimation.framework */; };
-		00AC8AC120A1F126003C4E59 /* arcsoft_fsdk_age_estimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC8ABB20A1F125003C4E59 /* arcsoft_fsdk_age_estimation.framework */; };
-		00AC8AC220A1F126003C4E59 /* arcsoft_fsdk_face_recognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC8ABC20A1F126003C4E59 /* arcsoft_fsdk_face_recognition.framework */; };
 		00AC8AC320A1F126003C4E59 /* arcsoft_fsdk_face_detection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC8ABD20A1F126003C4E59 /* arcsoft_fsdk_face_detection.framework */; };
-		00AC8AC420A1F126003C4E59 /* arcsoft_fsdk_base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC8ABE20A1F126003C4E59 /* arcsoft_fsdk_base.framework */; };
-		00AC8AC520A1F126003C4E59 /* arcsoft_fsdk_face_tracking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC8ABF20A1F126003C4E59 /* arcsoft_fsdk_face_tracking.framework */; };
 		00AC8AC620A1F12F003C4E59 /* arcsoft_fsdk_age_estimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC8ABB20A1F125003C4E59 /* arcsoft_fsdk_age_estimation.framework */; };
 		00AC8AC720A1F12F003C4E59 /* arcsoft_fsdk_age_estimation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC8ABB20A1F125003C4E59 /* arcsoft_fsdk_age_estimation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		00AC8AC820A1F12F003C4E59 /* arcsoft_fsdk_base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC8ABE20A1F126003C4E59 /* arcsoft_fsdk_base.framework */; };
 		00AC8AC920A1F12F003C4E59 /* arcsoft_fsdk_base.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC8ABE20A1F126003C4E59 /* arcsoft_fsdk_base.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		00AC8ACA20A1F12F003C4E59 /* arcsoft_fsdk_face_detection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC8ABD20A1F126003C4E59 /* arcsoft_fsdk_face_detection.framework */; };
 		00AC8ACB20A1F12F003C4E59 /* arcsoft_fsdk_face_detection.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC8ABD20A1F126003C4E59 /* arcsoft_fsdk_face_detection.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		00AC8ACC20A1F12F003C4E59 /* arcsoft_fsdk_face_recognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC8ABC20A1F126003C4E59 /* arcsoft_fsdk_face_recognition.framework */; };
 		00AC8ACD20A1F12F003C4E59 /* arcsoft_fsdk_face_recognition.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC8ABC20A1F126003C4E59 /* arcsoft_fsdk_face_recognition.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		00AC8ACE20A1F12F003C4E59 /* arcsoft_fsdk_face_tracking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC8ABF20A1F126003C4E59 /* arcsoft_fsdk_face_tracking.framework */; };
 		00AC8ACF20A1F12F003C4E59 /* arcsoft_fsdk_face_tracking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC8ABF20A1F126003C4E59 /* arcsoft_fsdk_face_tracking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		00AC8AD020A1F12F003C4E59 /* arcsoft_fsdk_gender_estimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC8ABA20A1F125003C4E59 /* arcsoft_fsdk_gender_estimation.framework */; };
 		00AC8AD120A1F12F003C4E59 /* arcsoft_fsdk_gender_estimation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC8ABA20A1F125003C4E59 /* arcsoft_fsdk_gender_estimation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7732EB47202C46A500652248 /* AFRCDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7732EB46202C46A400652248 /* AFRCDManager.m */; };
 		7732EB65202C50F800652248 /* FSDKFR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7732EB63202C50F800652248 /* FSDKFR.xcdatamodeld */; };
@@ -108,18 +102,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00AC8ACA20A1F12F003C4E59 /* arcsoft_fsdk_face_detection.framework in Frameworks */,
 				00AC8AC320A1F126003C4E59 /* arcsoft_fsdk_face_detection.framework in Frameworks */,
 				00AC8ACC20A1F12F003C4E59 /* arcsoft_fsdk_face_recognition.framework in Frameworks */,
 				00AC8AC820A1F12F003C4E59 /* arcsoft_fsdk_base.framework in Frameworks */,
-				00AC8AC520A1F126003C4E59 /* arcsoft_fsdk_face_tracking.framework in Frameworks */,
 				00AC8ACE20A1F12F003C4E59 /* arcsoft_fsdk_face_tracking.framework in Frameworks */,
 				00AC8AC620A1F12F003C4E59 /* arcsoft_fsdk_age_estimation.framework in Frameworks */,
 				77DBD91120298A1D007088E7 /* Photos.framework in Frameworks */,
-				00AC8AC120A1F126003C4E59 /* arcsoft_fsdk_age_estimation.framework in Frameworks */,
-				00AC8AC220A1F126003C4E59 /* arcsoft_fsdk_face_recognition.framework in Frameworks */,
-				00AC8AC420A1F126003C4E59 /* arcsoft_fsdk_base.framework in Frameworks */,
-				00AC8AD020A1F12F003C4E59 /* arcsoft_fsdk_gender_estimation.framework in Frameworks */,
 				00AC8AC020A1F126003C4E59 /* arcsoft_fsdk_gender_estimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
